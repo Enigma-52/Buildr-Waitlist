@@ -53,7 +53,7 @@ const LandingPage = () => {
           required
         />
         <button type="submit" className="w-full md:w-auto px-4 py-2 md:px-6 md:py-3 bg-purple-500 text-white rounded-full hover:bg-purple-600 text-lg md:text-xl shadow-lg transform transition-transform duration-200 hover:scale-105">
-          Join the Hype
+          Build!
         </button>
       </form>
     </div>
