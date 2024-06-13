@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {db, doc , setDoc , getDocs , collection} from '../utils/firebase.utils'
+import {db, setDoc , getDocs , collection} from '../utils/firebase.utils'
 
 const LandingPage = () => {
   const [email, setEmail] = useState('');
@@ -43,6 +43,7 @@ const LandingPage = () => {
         Become a <span className="text-purple-500">Buildr</span> today
       </h3>
       <p className="text-xl md:text-2xl mb-4">Sign up for early access!</p>
+      <div className="flex justify-center" >
       <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center w-full max-w-md">
         <input
           type="email"
@@ -56,6 +57,7 @@ const LandingPage = () => {
           Build!
         </button>
       </form>
+      </div>
     </div>
   );
 };
