@@ -29,6 +29,9 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-purple-900 via-black to-purple-900 text-white p-4">
+      <div className="fixed top-4 right-4 bg-black text-white px-6 py-3 rounded-full shadow-lg animate-pulse text-2xl font-bold">
+        100+ Devs Joined!
+      </div>
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-bounce">Buildr</h1>
       <p className="text-xl md:text-2xl mb-6 text-center pb-5">
         <span className="text-purple-500">Linktree</span> for Developers
